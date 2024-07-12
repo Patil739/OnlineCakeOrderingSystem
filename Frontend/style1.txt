@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-banner img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cake-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cake-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.cake-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    text-align: center;
+}
+
+.cake-item img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cake-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
